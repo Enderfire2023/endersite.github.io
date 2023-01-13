@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Generate Insults</title>
+	<script>
+		function generateInsult(){
+			var insults = ["Giuseppe Pepe è ricchione","Giuseppe Pepe è storto","Giuseppe Pepe ha la fica stretta","Giuseppe Pepe è un frocio di merda","Giuseppe Pepe ha la cugina bona che scopa Cristian","Giuseppe Pepe fa le pompe a michelin","Bufalo Big"];
+			var index = Math.floor(Math.random() * insults.length);
+			alert(insults[index]);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="generateInsult()">Generate Insult</button>
+</body>
+</html>
